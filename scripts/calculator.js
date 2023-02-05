@@ -212,18 +212,22 @@ function roundAccurately(num, places) {
   return parseFloat(Math.round(num + "e" + places) + "e-" + places);
 }
 
+// Return the square root of a number
 function squareRoot(num) {
   return (displayValue = Math.sqrt(num).toFixed(9));
 }
 
+// Return the natural log of a number
 function log(num) {
   return (displayValue = Math.log(num).toFixed(9));
 }
 
+// Return the value of pi
 function pi(num) {
   return (displayValue = Math.PI.toFixed(9));
 }
 
+// Return the value of e
 function expoNum(num) {
   return (displayValue = Math.E.toFixed(9));
 }
