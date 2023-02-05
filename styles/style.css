@@ -109,6 +109,10 @@ button {
   background-color: rgb(123, 189, 255);
 }
 
-.new-button {
+.sqrt,
+.other,
+.log,
+.pi,
+.exponential {
   background-color: rgb(163, 70, 224);
 }
